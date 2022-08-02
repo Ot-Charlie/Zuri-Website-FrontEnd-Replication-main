@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.top{
+    background-image: url(/images/pink-bg.svg);
+    height: 100vh;
+}
+.heading, h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    font-size: 32px;
+}
+ .top p{
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 380px;
+   font-size: 17px;
+   font-weight: 500;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    
+ }
+ .f-btn, .s-btn{
+    
+    padding: 10px 40px 10px 40px;
+    cursor: pointer;
+    font-size: 15px;
+ }
+ .f-btn{
+    margin-left: 40px;
+    color: white;
+    background-color: #E7332B;
+border: 0;
+ }
+ .s-btn{
+    margin-left: 40px;
+    color: #E7332B;;
+    background-color: white;
+    border: 1px solid #E7332B;
+
+ }
+ .f-btn:hover{
+    background-color: white;
+    color:#E7332B;
+    border: 1px solid #E7332B;
+ }
+ .s-btn:hover{
+    background-color:#E7332B;
+    color: white;
+ }
