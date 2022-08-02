@@ -17,10 +17,11 @@
  .top p{
     padding-top: 50px;
     text-align: center;
-    margin-left: 400px;
-    margin-right: 380px;
-   font-size: 17px;
+    margin-left: 410px;
+    margin-right: 390px;
+   font-size: 16px;
    font-weight: 500;
+   color: #514949;
 }
 .btn{
     display: flex;
@@ -56,3 +57,39 @@ border: 0;
     background-color:#E7332B;
     color: white;
  }
+ .middle h3{
+   display: flex;
+   justify-content: center;
+   padding-top: 180px;
+   font-size: 15px;
+   color: #E7332B;
+   padding-bottom: 10px;
+}
+ .middle p{
+   display: flex;
+   justify-content: center;
+   padding-top: 7px;
+   font-size: 25px;
+  color: #514949;
+   }
+   .cards{
+      display: flex;
+      background-color: #FFFAFA;;
+   }
+
+   .ldot{
+      height: auto;
+      width:300px;
+      position: relative;
+   }
+   .training{
+      position: absolute;
+      margin-left: -140px;
+      margin-right: 40px;
+      z-index:1;
+   }
+   .rdot{
+      height: auto;
+      width:300px;
+   }
+  
