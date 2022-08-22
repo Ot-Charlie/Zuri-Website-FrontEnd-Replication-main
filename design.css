@@ -248,9 +248,6 @@ h2{
   margin-left: 500px;
   width: 1500px;
 }
-/*.third {
-  position:relative;
-}*/
 .ldot, .rdot{
 display: none;
 }
@@ -317,8 +314,7 @@ width: 2000px;
 .lcf{
   font-size: 70px;
   padding-top: 80px;
-  
-}
+  }
 .foot_first{
   font-size: 50px;
   line-height: 100px;
@@ -339,9 +335,7 @@ width: 2000px;
 }
 .socials{
   margin-left: -300px;
-  height: 200px;
-  width: 5000px;
- 
+  height: 100px;
 }
 hr {
   margin-top: 6400px;
@@ -359,4 +353,143 @@ footer {
   font-weight: 600;
   width: 1000px;
 }
+}
+@media (max-width: 600px) {
+  .top{
+    background-image: url("/images/firstpage/pink-bg.svg");
+  }
+  .heading{
+    padding-top: 450px;
+   margin-left: 240mm;
+}
+h2{
+  margin-left: 120mm;
+  padding-top: 300px;
+  width: 900px;
+  font-size: 90px;
+  color: #514949;
+}
+.top p{
+  text-align:center;
+    margin-left: 150px;
+  width: 1500px;
+  padding-top: 100px;
+  font-size: 60px;
+  color: #514949;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    padding-top: 300px;
+    margin-left: 400px;
+  }
+  .s-btn {
+    padding: 50px 70px 80px 70px;
+    font-size: 60px;
+    width: 900px;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-weight: 500;
+  }
+  .middle h3 {
+    padding-top: 2200px;
+    margin-left: 600px;
+    font-weight: 500;
+    font-size: 60px;
+    color: #e7332b;
+    padding-bottom: 10px;
+    width: 500px;
+  }
+  .middle p {
+    padding-top: 20px;
+    font-size: 90px;
+    font-weight: 600;
+    color: #514949;
+    margin-left: 100px;
+    width: 1500px;
+  }
+  .training {
+    padding: 200px 50px 300px 50px;
+  font-size: 70px;
+  font-weight: 400;
+    margin-top: 300px;
+    margin-left: 100px;
+     background-color: #fffafa;
+    width: 1500px;
+  }
+  .training p{
+    padding-left: 100px;
+  width: 1300px;
+  }
+  .internship {
+    padding: 200px 50px 300px 50px;
+    font-size: 70px;
+    font-weight: 400;
+      margin-top: 300px;
+      margin-left: 100px;
+       background-color: #fffafa;
+      width: 1500px;
+  }
+  .internship p{
+    padding-left: 100px;
+  width: 1270px;
+  }
+  .talent {
+    padding: 200px 50px 300px 50px;
+    font-size: 70px;
+    font-weight: 400;
+      margin-top: 300px;
+      margin-left: 100px;
+       background-color: #fffafa;
+      width: 1500px;
+  }
+  .talent p{
+    padding-left: 100px;
+    width: 1270px;
+  }
+  .foot_pic{
+    margin-left: 400px;
+    margin-top: 400px;
+   }
+   .foot_first{
+    font-size: 70px;
+    line-height: 100px;
+    margin-left: 600px;
+  }
+  .foot_second{
+    font-size: 70px;
+    line-height: 100px;
+    margin-left: 600px;
+  }
+  .location{
+    margin-left: -300px;
+    text-align: center;
+    width:1000px;
+    line-height: 70px;
+    color: #514949;
+  }
+  .hello{
+    padding-top: 40px;
+    margin-left: -50px;
+  }
+  .foot_third{
+    margin-left: 600px;
+    font-size: 70px;
+  }
+  hr {
+    margin-top: 8100px;
+    color: #514949;
+    width: 1520px;
+    margin-left: 100px;
+    border-width: 2px;
+  }
+  footer {
+    margin-top: 30px;
+    margin-bottom: 90px;
+    margin-left: 300px;
+    color: #514949;
+    font-size: 60px;
+    font-weight: 600;
+    width: 1000px;
+  }
 }
