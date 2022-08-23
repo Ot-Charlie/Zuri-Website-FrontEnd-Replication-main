@@ -189,10 +189,14 @@ footer {
 @media (max-width: 768px) {
   .top{
     background-image: url("/images/firstpage/pink-bg.svg");
+    min-width: 310vw;
+    min-height: 360vh;
+    background-repeat: no-repeat;
+  background-size: cover;
   }
   .heading{
     padding-top: 450px;
-   margin-left: 340mm;
+   margin-left: 200px;
 }
 .heading img{
   height: 80px;
@@ -232,7 +236,7 @@ h2{
   font-weight: 500;
 }
 .middle h3 {
-  padding-top: 1700px;
+  padding-top: 200px;
   margin-left: 1000px;
   font-weight: 500;
   font-size: 50px;
@@ -357,10 +361,12 @@ footer {
 @media (max-width: 600px) {
   .top{
     background-image: url("/images/firstpage/pink-bg.svg");
+    min-width: 390vw;
+    min-height: 400vh;
   }
   .heading{
     padding-top: 450px;
-   margin-left: 240mm;
+   margin-left: 150px;
 }
 h2{
   margin-left: 120mm;
@@ -392,7 +398,7 @@ h2{
     font-weight: 500;
   }
   .middle h3 {
-    padding-top: 2200px;
+    padding-top: 200px;
     margin-left: 600px;
     font-weight: 500;
     font-size: 60px;
