@@ -101,7 +101,7 @@ header button {
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .join-talent {
-background-color: #585858;
+  background-color: #585858;
   color: #fff;
   border: none;
   border-bottom-right-radius: 10px;
@@ -470,15 +470,16 @@ span {
   padding-bottom: 20px;
 }
 @media (max-width: 768px) {
-  header{
-    position:fixed;
-  padding-top: 120px;
-  padding-bottom: 50px;
+  header {
+    position: fixed;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    top: 13px;
   }
   header img {
-  width: 300px;
+    width: 300px;
   }
-  .headies{
+  .headies {
     display: none;
   }
   header button {
@@ -487,16 +488,15 @@ span {
     padding-bottom: 20px;
     font-size: 30px;
     border-bottom-right-radius: 15px;
-    
   }
   .first-phase {
-    display:block;
+    display: block;
   }
   .first-phase h2 {
     font-size: 80px;
-  padding-top: 200px;
-  width: 1000px;
-  margin-left: 300px;
+    padding-top: 200px;
+    width: 1000px;
+    margin-left: 300px;
   }
   .whip-one {
     position: absolute;
@@ -504,10 +504,10 @@ span {
     top: 510px;
     width: 200px;
   }
-    .whip-two{
-      display: none;
-    }
- 
+  .whip-two {
+    display: none;
+  }
+
   .first-phase p {
     font-size: 40px;
     width: 870px;
@@ -515,260 +515,603 @@ span {
     text-align: center;
     margin: 70px 0px 0px 350px;
   }
-  .hj{
+  .hj {
     width: 1500px;
   }
-  .hire-talent{
+  .hire-talent {
     margin-left: 400px;
   }
-.first-phase button{
-  width: 400px;
-  font-size: 30px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  border-bottom-right-radius: 15px;
-}
-.man {
-  width: 900px;
-  margin-top: 90px;
-  margin-left: 300px;
-  margin-bottom: 10px;
-} 
-.sec-phase{
-  display: block;
-  min-width: 197vw;
-}
-.sec-phase h2 {
-  padding-top: 200px;
-  margin-left: 300px;
-width: 1000px;
-  font-weight: 700;
-  font-size: 70px;
-}
-.trained{
-  font-size: 40px;
-  font-weight: 700;
-  margin-left: 500px;
-  margin-top: 20px;
-  width: 700px;
-}
-.tlent{
-  font-size: 40px;
-  font-weight: 400;
-  margin-left: 510px;
-  margin-top: 20px;
-  width: 700px;
-}
-.gmany {
-  margin-left: 330px;
-  border-radius: 15px;
-  padding: 10px;
-  width: 120px;
-}
-.eland {
-  margin-left: 30px;
-  border-radius: 15px;
-  padding: 15px;
-  width: 120px;
-}
-.india {
-  margin-left: 30px;
-  border-radius: 15px;
-  padding: 20px;
-  width: 110px;
-}
-.naija {
-  margin-left: 30px;
-  border-radius: 15px;
-  padding: 17px;
-  width: 110px;
-}
-.yankee {
-  margin-left: 30px;
-  border-radius: 15px;
-  padding: 20px;
-  width: 110px;
-}
-.bitmoji {
-  width: 800px;
-  margin-left: 350px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-.thd-phase h2{
-  width: 800px;
-  font-size: 60px;
-  text-align: center;
-  margin-left: 350px;
-}
-.whip-three{
-  display: none;
-}
-.thd-phase .ubdf{
-  width: 1500px;
-}
-.thd-phase div{
-  width: 1500px;
-}
-.ui{
-  padding-top: 30px;
-  font-size: 37px;
-  width: 400px;
-  border-radius: 15px;
-}
-.cohort{
-  padding-top: 30px;
-  font-size: 37px;
-  width: 500px;
-  border-radius: 15px;
-}
-.cof{
-  position: absolute;
-  margin-top: 170px;
-  margin-left: 100px;
-  width: 500px;
-}
-.thd-phase h3{
-  font-size: 55px;
-  width: 800px;
-  margin-top: 250px;
-  margin-left: 400px;
-}
-.thd-phase
-.where{
-  display: block;
-}
-.github{
-  padding-top: 30px;
-  font-size: 37px;
-  width: 400px;
-  border-radius: 15px;
-  margin-left: 100px;
-}
-.location{
-  padding-top: 30px;
-  font-size: 37px;
-  width: 400px;
-  border-radius: 15px;
-}
-.flutter{
-  margin-left: 100px;
-}
-.fourth-phase{
-  min-width: 199vw;
-}
-.fourth-phase h2{
-  font-size: 55px;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  margin-left: 500px;
-}
-.abox{
-  border-bottom-right-radius: 15px;
-  width: 600px;
-  margin-left: 100px;
-}
-.skilled{
-  font-size: 33px;
-  width: 400px;
-  font-weight: 500;
-  margin-left: 50px;
+  .first-phase button {
+    width: 400px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom-right-radius: 15px;
   }
-  .bbox{
+  .man {
+    width: 900px;
+    margin-top: 90px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+  }
+  .sec-phase {
+    display: block;
+    min-width: 197vw;
+  }
+  .sec-phase h2 {
+    padding-top: 200px;
+    margin-left: 300px;
+    width: 1000px;
+    font-weight: 700;
+    font-size: 70px;
+  }
+  .trained {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 500px;
+    margin-top: 20px;
+    width: 700px;
+  }
+  .tlent {
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 510px;
+    margin-top: 20px;
+    width: 700px;
+  }
+  .gmany {
+    margin-left: 330px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 120px;
+  }
+  .eland {
+    margin-left: 30px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 120px;
+  }
+  .india {
+    margin-left: 30px;
+    border-radius: 15px;
+    padding: 20px;
+    width: 110px;
+  }
+  .naija {
+    margin-left: 30px;
+    border-radius: 15px;
+    padding: 17px;
+    width: 110px;
+  }
+  .yankee {
+    margin-left: 30px;
+    border-radius: 15px;
+    padding: 20px;
+    width: 110px;
+  }
+  .bitmoji {
+    width: 800px;
+    margin-left: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .thd-phase h2 {
+    width: 800px;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 350px;
+  }
+  .whip-three {
+    display: none;
+  }
+  .thd-phase .ubdf {
+    width: 1500px;
+  }
+  .thd-phase div {
+    width: 1500px;
+  }
+  .ui {
+    padding-top: 30px;
+    font-size: 37px;
+    width: 400px;
+    border-radius: 15px;
+  }
+  .cof {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 100px;
+    width: 500px;
+  }
+  .thd-phase h3 {
+    font-size: 55px;
+    width: 800px;
+    margin-top: 250px;
+    margin-left: 400px;
+  }
+  .thd-phase .where {
+    display: block;
+  }
+  .github {
+    padding-top: 30px;
+    font-size: 37px;
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 100px;
+  }
+  .location {
+    padding-top: 30px;
+    font-size: 37px;
+    width: 400px;
+    border-radius: 15px;
+  }
+  .flutter {
+    margin-left: 100px;
+  }
+  .fourth-phase {
+    min-width: 199vw;
+  }
+  .fourth-phase h2 {
+    font-size: 55px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-left: 500px;
+  }
+  .abox {
+    border-bottom-right-radius: 15px;
+    width: 600px;
+    margin-left: 100px;
+  }
+  .skilled {
+    font-size: 33px;
+    width: 400px;
+    font-weight: 500;
+    margin-left: 50px;
+  }
+  .bbox {
     width: 600px;
     border-bottom-right-radius: 15px;
   }
-.client{
-  font-size: 33px;
-  width: 400px;
-  font-weight: 500;
-  padding-bottom: 40px;
-  margin-left: 50px;
+  .client {
+    font-size: 33px;
+    width: 400px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    margin-left: 50px;
+  }
+  .cbox {
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 100px;
+    width: 600px;
+    border-bottom-right-radius: 15px;
+  }
+  .ratio {
+    font-size: 33px;
+    width: 400px;
+    font-weight: 500;
+    padding-bottom: 80px;
+  }
+  .dbox {
+    margin-left: 720px;
+    width: 600px;
+    border-bottom-right-radius: 15px;
+  }
+  .contract {
+    margin-left: 70px;
+    font-size: 33px;
+    width: 400px;
+    font-weight: 500;
+  }
+  .ebox {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 100px;
+    width: 1220px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 100px;
+  }
+  .convert {
+    margin-left: 150px;
+    font-size: 33px;
+    width: 800px;
+    font-weight: 500;
+  }
+  .hj-t {
+    margin-top: 400px;
+    width: 1500px;
+    padding-bottom: 100px;
+  }
+  .hire-talent-2 {
+    width: 400px;
+    margin-left: 1px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom-right-radius: 15px;
+  }
+  .join-talent-2 {
+    width: 400px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom-right-radius: 15px;
+  }
+  .end {
+    min-width: 199vw;
+  }
+  .eimg {
+    width: 300px;
+    margin-left: 200px;
+    padding-top: 90px;
+  }
+  .end-2 {
+    padding-top: 20px;
+  }
+  .fbf,
+  .end-3,
+  .end-4 {
+    width: 60px;
+  }
+  .end-5 {
+    width: 90px;
+  }
+  .final {
+    padding-bottom: 20px;
+  }
+  .final-1 {
+    font-size: 35px;
+    width: 800px;
+  }
+  .final-2 {
+    font-size: 35px;
+    margin-left: 250px;
+  }
 }
-.cbox{
-  position: absolute;
-  margin-top: 460px;
-  margin-left: 100px;
-  width: 600px;
-  border-bottom-right-radius: 15px;
-}
-.ratio{
-  font-size: 33px;
-  width: 400px;
-  font-weight: 500;
-  padding-bottom: 80px;
-}
-.dbox{
-  margin-left: 720px;
-  width:600px;
-  border-bottom-right-radius: 15px;
-}
-.contract{
-  margin-left: 70px;
-  font-size: 33px;
-  width: 400px;
-  font-weight: 500;
-}
-.ebox{
-  position: absolute;
-  margin-top: 420px;
-  margin-left: 100px;
-  width: 1220px;
-  border-bottom-right-radius: 15px;
-  padding-bottom: 100px;
-}
-.convert{
-  margin-left: 150px;
-  font-size: 33px;
-  width: 800px;
-  font-weight: 500;
-}
-.hj-t{
-  margin-top: 400px;
-  width: 1500px;
-  padding-bottom: 100px;
-}
-.hire-talent-2{
-  width: 400px;
-  margin-left: 1px;
-  font-size: 30px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  border-bottom-right-radius: 15px;
-}
-.join-talent-2{
-  width: 400px;
-  font-size: 30px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  border-bottom-right-radius: 15px;
-}
-.end{
-  min-width: 199vw;
-}
-.eimg{
- width: 300px;
- margin-left: 200px;
- padding-top: 90px;
-}
-.end-2{
-  padding-top: 20px;
-}
-.fbf, .end-3, .end-4{
-  width: 60px;
-}
-.end-5{
-  width: 90px;
-}
-.final{
-  padding-bottom: 20px;
-}
-.final-1{
-  font-size: 35px;
-  width: 800px;
-}
-.final-2{
-  font-size: 35px;
-  margin-left: 250px;
-}
+@media only screen and (min-width: 320px) and (max-width: 600px){
+  header {
+    position: fixed;
+    top: 5px;
+  }
+  header img {
+    width: 500px;
+  }
+  header div {
+    margin-left: 400px;
+  }
+  header button {
+    width: 460px;
+    font-size: 60px;
+    border-bottom-right-radius: 25px;
+  }
+  .first-phase h2 {
+    font-size: 150px;
+    width: 1300px;
+    text-align: center;
+    margin-left: 150px;
+  }
+  .whip-one {
+    top: 760px;
+    width: 370px;
+    margin-left: 1000px;
+  }
+  .first-phase p {
+    font-size: 58px;
+    margin-left: 150px;
+    width: 1167px;
+    line-height: 80px;
+  }
+  .hj {
+    width: 2000px;
+  }
+  .first-phase button {
+    margin-top: 100px;
+    width: 550px;
+    font-size: 60px;
+    border-bottom-right-radius: 25px;
+  }
+  .hire-talent {
+    margin-left: 200px;
+  }
+  .join-talent {
+    width: 500px;
+    margin-left: 50px;
+  }
+  .man {
+    width: 1250px;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+  }
+  .sec-phase {
+    min-width: 400vw;
+  }
+  .sec-phase h2 {
+    font-size: 110px;
+    width: 1400px;
+    margin-left: 100px;
+  }
+  .trained {
+    font-size: 70px;
+    width: 900px;
+    margin-left: 100px;
+  }
+  .tlent {
+    font-size: 70px;
+    width: 900px;
+    margin-left: 100px;
+    padding-bottom: 70px;
+    padding-top: 50px;
+  }
+  .gmany {
+    margin-left: 100px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 200px;
+  }
+  .eland {
+    margin-left: 100px;
+    border-radius: 15px;
+    padding: 17px;
+    width: 200px;
+  }
+  .india {
+    margin-left: 100px;
+    border-radius: 15px;
+    padding: 30px;
+    width: 190px;
+  }
+  .naija {
+    margin-left: 100px;
+    border-radius: 15px;
+    padding: 20px;
+    width: 190px;
+  }
+  .yankee {
+    margin-left: 100px;
+    border-radius: 15px;
+    padding: 30px;
+    width: 180px;
+  }
+  .bitmoji {
+    width: 1500px;
+    margin-left: 100px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+  .thd-phase h2 {
+    width: 1300px;
+    font-size: 110px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 300px;
+  }
+  .ui {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 60px;
+    width: 700px;
+    border-radius: 15px;
+  }
+  .cohort {
+    padding-top: 30px;
+    font-size: 60px;
+    width: 700px;
+    border-radius: 15px;
+  }
+  .doe {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 100px;
+    width: 690px;
+    font-size: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .cof {
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 300px;
+    width: 700px;
+    text-align: center;
+    font-size: 70px;
+  }
+  .thd-phase h3 {
+    margin-left: 100px;
+    margin-top: 400px;
+    font-size: 100px;
+    width: 1200px;
+  }
+  .github {
+    padding-bottom: 70px;
+    font-size: 70px;
+    width: 700px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 500;
+  }
+  .micro {
+    padding-bottom: 70px;
+    font-size: 70px;
+    width: 700px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 100px;
+  }
+  .resame {
+    position: absolute;
+    padding-bottom: 70px;
+    font-size: 70px;
+    width: 660px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 250px;
+    font-weight: 400;
+  }
+  .flutter {
+    position: absolute;
+    padding-bottom: 70px;
+    font-size: 70px;
+    width: 660px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 850px;
+    margin-top: 30px;
+    font-weight: 400;
+  }
+  .goo {
+    position: absolute;
+    position: absolute;
+    padding-bottom: 70px;
+    font-size: 70px;
+    width: 660px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 260px;
+    font-weight: 400;
+  }
+  .cartran {
+    position: absolute;
+    position: absolute;
+    padding-bottom: 70px;
+    font-size: 70px;
+    width: 660px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 850px;
+    margin-top: 260px;
+    font-weight: 400;
+  }
+  .fourth-phase {
+    min-width: 400vw;
+    margin-top: 800px;
+  }
+  .fourth-phase h2 {
+    font-size: 110px;
+    margin-left: 300px;
+    width: 1500px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .grind_one {
+    display: block;
+  }
+  .abox {
+    width: 1400px;
+    border-bottom-right-radius: 25px;
+    margin-left: 150px;
+  }
+  .log {
+    width: 300px;
+    padding-top: 100px;
+  }
+  .skilled {
+    font-size: 60px;
+    width: 1200px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+  .bbox {
+    margin-left: 150px;
+    width: 1400px;
+    margin-top: 50px;
+  }
+  .client {
+    font-size: 60px;
+    width: 1200px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+  .cbox {
+    margin-left: 150px;
+    width: 1400px;
+    margin-top: 50px;
+  }
+  .ratio {
+    font-size: 60px;
+    width: 1200px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+  .dbox {
+    margin-top: 1020px;
+    width: 1400px;
+    margin-left: 150px;
+  }
+  .contract {
+    font-size: 60px;
+    width: 1200px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+  .ebox {
+    margin-top: 2030px;
+    width: 1400px;
+    margin-left: 150px;
+  }
+  .convert {
+    font-size: 60px;
+    width: 1200px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+  .hj-t {
+    margin-top: 1200px;
+  }
+  .hire-talent-2 {
+    font-size: 70px;
+    width: 500px;
+    margin-left: 150px;
+    border-bottom-right-radius: 25px;
+  }
+  .join-talent-2 {
+    font-size: 70px;
+    width: 700px;
+    margin-left: 100px;
+    border-bottom-right-radius: 25px;
+  }
+  .end {
+    min-width: 400vw;
+  }
+
+  .eimg {
+    padding-top: 150px;
+    width: 600px;
+    margin-left: 500px;
+  }
+  .fbf,
+  .end-3,
+  .end-4 {
+    width: 120px;
+    margin-top: 100px;
+  }
+  .fbf {
+    margin-left: -500px;
+  }
+  .end-3,
+  .end-4,
+  .end-5 {
+    margin-left: 50px;
+  }
+  .end-5 {
+    width: 170px;
+  }
+  .final {
+    display: block;
+  }
+  .final-1 {
+    font-size: 66px;
+    width: 1500px;
+  }
+  .final-2 {
+    font-size: 70px;
+    padding-bottom: 100px;
+    margin-left: 550px;
+  }
 }
